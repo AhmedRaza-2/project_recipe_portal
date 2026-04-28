@@ -35,17 +35,3 @@ A professional web application for chefs to manage recipes and showcase portfoli
    npm run dev
    ```
    The application will be available at `http://localhost:5173`.
-
-## 📌 Kya Kya Ho Gya (Completed)
-- [x] **Premium UI/UX**: All 7 core pages designed according to screenshots.
-- [x] **Responsive Design**: Mobile and desktop friendly layouts.
-- [x] **Frontend Routing**: Navigation between Home, Chefs List, Profile, and Dashboard.
-- [x] **Backend Models**: Chef and Recipe data structures defined.
-- [x] **CRUD Operations**: API endpoints for adding, editing, and deleting recipes.
-- [x] **Auth UI**: Login and Register screens.
-
-## 🚧 Kya Kya Rehta Hy (Remaining)
-1. **API Integration**: Frontend is currently using mock data. You need to update the `useEffect` hooks in the pages to fetch data from `http://localhost:5000/api/recipes`.
-2. **Real Authentication**: Adding JWT tokens for secure login (currently it's a basic check).
-3. **Image Uploads**: Implementing a file upload service for chef profile pictures and recipe images.
-4. **Form Validation**: Adding deeper validation for recipe ingredients and instructions.
